@@ -6,10 +6,12 @@
 /node_modules/*
 /docker/maria/*
 /docker/nginx/logs/*
-/vendor/*
-
 /storage/*.key
 /storage/logs/*
+/vendor/*
+
+/.env
+/docker-compose.yml
 /Homestead.yaml
 /Homestead.json
 /.vagrant
