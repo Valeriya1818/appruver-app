@@ -18,8 +18,8 @@ class CreateServicesTable extends Migration
             $table->string('name', 255);
             $table->bigInteger('user_id');
             $table->text('url');
-            $table->boolean('active');
-            $table->boolean('delete');
+            $table->boolean('active')->default(true);
+            $table->boolean('delete')->default(false);
 
             $table->timestamps();
         });

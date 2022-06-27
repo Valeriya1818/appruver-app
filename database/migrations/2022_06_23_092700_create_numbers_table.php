@@ -19,8 +19,8 @@ class CreateNumbersTable extends Migration
             $table->string('number', 255);
             $table->integer('service_id');
             $table->integer('user_id');
-            $table->boolean('active');
-            $table->boolean('delete');
+            $table->boolean('active')->default(true);
+            $table->boolean('delete')->default(false);
 
             $table->timestamps();
         });

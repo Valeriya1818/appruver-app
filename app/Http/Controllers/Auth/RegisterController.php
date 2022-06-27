@@ -9,6 +9,8 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
+use App\Events\UserCreatedEvent;
+
 class RegisterController extends Controller
 {
     /*
@@ -29,7 +31,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    protected string $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -61,15 +63,19 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \App\Models\User
+     * @return User
      */
-    protected function create(array $data)
+    protected function create(array $data): User
     {
-        return User::create([
+        $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
             'company' => $data['company']
         ]);
+
+        $userCreatedEvent = new UserCreatedEvent($user);
+        event($userCreatedEvent);
+        return $user;
     }
 }
