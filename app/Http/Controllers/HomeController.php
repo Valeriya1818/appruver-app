@@ -2,9 +2,18 @@
 
 namespace App\Http\Controllers;
 
-class HomeController extends Controller {
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 
-    public function index() {
+class HomeController extends Controller
+{
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function index()
+    {
         return view('welcome');
     }
 }
