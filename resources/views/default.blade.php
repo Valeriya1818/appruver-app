@@ -790,7 +790,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/003-puzzle.svg"
+																					<img src="/assets/media/svg/misc/003-puzzle.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -895,7 +895,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/005-bebo.svg"
+																					<img src="/assets/media/svg/misc/005-bebo.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -1000,7 +1000,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/014-kickstarter.svg"
+																					<img src="/assets/media/svg/misc/014-kickstarter.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -1105,7 +1105,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light mr-1">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/006-plurk.svg"
+																					<img src="/assets/media/svg/misc/006-plurk.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -1210,7 +1210,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/015-telegram.svg"
+																					<img src="/assets/media/svg/misc/015-telegram.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -1337,7 +1337,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/015-telegram.svg"
+																					<img src="/assets/media/svg/misc/015-telegram.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -1442,7 +1442,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/003-puzzle.svg"
+																					<img src="/assets/media/svg/misc/003-puzzle.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -1547,7 +1547,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/005-bebo.svg"
+																					<img src="/assets/media/svg/misc/005-bebo.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -1652,7 +1652,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light mr-1">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/006-plurk.svg"
+																					<img src="/assets/media/svg/misc/006-plurk.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -1757,7 +1757,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/014-kickstarter.svg"
+																					<img src="/assets/media/svg/misc/014-kickstarter.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -1885,7 +1885,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light mr-1">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/006-plurk.svg"
+																					<img src="/assets/media/svg/misc/006-plurk.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -1990,7 +1990,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/015-telegram.svg"
+																					<img src="/assets/media/svg/misc/015-telegram.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -2095,7 +2095,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/003-puzzle.svg"
+																					<img src="/assets/media/svg/misc/003-puzzle.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -2200,7 +2200,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/005-bebo.svg"
+																					<img src="/assets/media/svg/misc/005-bebo.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -2305,7 +2305,7 @@
                                     <td class="pl-0 py-4">
                                         <div class="symbol symbol-50 symbol-light">
 																				<span class="symbol-label">
-																					<img src="assets/media/svg/misc/014-kickstarter.svg"
+																					<img src="/assets/media/svg/misc/014-kickstarter.svg"
                                                                                          class="h-50 align-self-center"
                                                                                          alt=""/>
 																				</span>
@@ -2488,7 +2488,7 @@
                     <!--begin::Symbol-->
                     <div class="symbol symbol-40 symbol-light-success mr-5">
 														<span class="symbol-label">
-															<img src="assets/media/svg/avatars/009-boy-4.svg"
+															<img src="/assets/media/svg/avatars/009-boy-4.svg"
                                                                  class="h-75 align-self-end" alt=""/>
 														</span>
                     </div>
@@ -2567,7 +2567,7 @@
                     <!--begin::Symbol-->
                     <div class="symbol symbol-40 symbol-light-success mr-5">
 														<span class="symbol-label">
-															<img src="assets/media/svg/avatars/006-girl-3.svg"
+															<img src="/assets/media/svg/avatars/006-girl-3.svg"
                                                                  class="h-75 align-self-end" alt=""/>
 														</span>
                     </div>
@@ -2646,7 +2646,7 @@
                     <!--begin::Symbol-->
                     <div class="symbol symbol-40 symbol-light-success mr-5">
 														<span class="symbol-label">
-															<img src="assets/media/svg/avatars/011-boy-5.svg"
+															<img src="/assets/media/svg/avatars/011-boy-5.svg"
                                                                  class="h-75 align-self-end" alt=""/>
 														</span>
                     </div>
@@ -2725,7 +2725,7 @@
                     <!--begin::Symbol-->
                     <div class="symbol symbol-40 symbol-light-success mr-5">
 														<span class="symbol-label">
-															<img src="assets/media/svg/avatars/015-boy-6.svg"
+															<img src="/assets/media/svg/avatars/015-boy-6.svg"
                                                                  class="h-75 align-self-end" alt=""/>
 														</span>
                     </div>
@@ -2804,7 +2804,7 @@
                     <!--begin::Symbol-->
                     <div class="symbol symbol-40 symbol-light-success mr-5">
 														<span class="symbol-label">
-															<img src="assets/media/svg/avatars/016-boy-7.svg"
+															<img src="/assets/media/svg/avatars/016-boy-7.svg"
                                                                  class="h-75 align-self-end" alt=""/>
 														</span>
                     </div>
@@ -3451,7 +3451,7 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-45 symbol-light mr-5">
 															<span class="symbol-label">
-																<img src="assets/media/svg/misc/006-plurk.svg"
+																<img src="/assets/media/svg/misc/006-plurk.svg"
                                                                      class="h-50 align-self-center" alt=""/>
 															</span>
                         </div>
@@ -3478,7 +3478,7 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-45 symbol-light mr-5">
 															<span class="symbol-label">
-																<img src="assets/media/svg/misc/015-telegram.svg"
+																<img src="/assets/media/svg/misc/015-telegram.svg"
                                                                      class="h-50 align-self-center" alt=""/>
 															</span>
                         </div>
@@ -3505,7 +3505,7 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-45 symbol-light mr-5">
 															<span class="symbol-label">
-																<img src="assets/media/svg/misc/014-kickstarter.svg"
+																<img src="/assets/media/svg/misc/014-kickstarter.svg"
                                                                      class="h-50 align-self-center" alt=""/>
 															</span>
                         </div>

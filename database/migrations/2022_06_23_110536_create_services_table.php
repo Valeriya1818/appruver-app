@@ -11,17 +11,22 @@ class CreateServicesTable extends Migration
      *
      * @return void
      */
-    public function up()
+    public function up(): void
     {
         Schema::create('services', function (Blueprint $table) {
-            $table->bigInteger('id', true);
+            $table->bigIncrements('id')->unsigned();
             $table->string('name', 255);
-            $table->bigInteger('user_id');
-            $table->text('url');
+            $table->bigInteger('user_id')->unsigned();
+            $table->text('url')->nullable();
             $table->boolean('active')->default(true);
             $table->boolean('delete')->default(false);
-
             $table->timestamps();
+
+            $table->index('user_id');
+            $table->foreign('user_id')
+                ->references('id')
+                ->on('users')
+                ->onDelete('cascade');
         });
     }
 
@@ -30,7 +35,7 @@ class CreateServicesTable extends Migration
      *
      * @return void
      */
-    public function down()
+    public function down(): void
     {
         Schema::dropIfExists('services');
     }

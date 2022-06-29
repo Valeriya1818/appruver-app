@@ -11,18 +11,23 @@ class CreateNumbersTable extends Migration
      *
      * @return void
      */
-    public function up()
+    public function up(): void
     {
         Schema::create('numbers', function (Blueprint $table) {
-
-            $table->bigInteger('id', true);
-            $table->string('number', 255);
-            $table->integer('service_id');
-            $table->integer('user_id');
+            $table->bigIncrements('id')->unsigned();
+            $table->bigInteger('number')->unsigned();
+            $table->bigInteger('service_id')->unsigned();
+            $table->bigInteger('user_id')->unsigned();
             $table->boolean('active')->default(true);
             $table->boolean('delete')->default(false);
-
             $table->timestamps();
+
+            $table->index('user_id');
+            $table->index('service_id');
+            $table->foreign('service_id')
+                ->references('id')
+                ->on('services')
+                ->onDelete('cascade');
         });
     }
 
@@ -31,7 +36,7 @@ class CreateNumbersTable extends Migration
      *
      * @return void
      */
-    public function down()
+    public function down(): void
     {
         Schema::dropIfExists('numbers');
     }

@@ -16,6 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::any('/', 'HomeController@index')->name('home');
-Route::resource('/numbers', 'NumberController@index');
-Route::resource('/services', 'ServicesController@index');
+Route::any('/', 'DashboardController@index')->name('home')->middleware('auth');
+Route::any('/dashboard', 'DashboardController@index')->name('dashboard')->middleware('auth');

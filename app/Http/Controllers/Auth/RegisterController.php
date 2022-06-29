@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Validator;
 
 use App\Events\UserCreatedEvent;
 
-class RegisterController extends Controller
+class RegisterController extends AuthController
 {
     /*
     |--------------------------------------------------------------------------

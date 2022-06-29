@@ -724,7 +724,7 @@
                 <div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
                     <form>
                         <!--begin::Header-->
-                        <div class="d-flex flex-column pt-12 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(assets/media/misc/bg-1.jpg)">
+                        <div class="d-flex flex-column pt-12 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(/assets/media/misc/bg-1.jpg)">
                             <!--begin::Title-->
                             <h4 class="d-flex flex-center rounded-top">
                                 <span class="text-white">User Notifications</span>
@@ -1182,7 +1182,7 @@
                 <!--begin::Dropdown-->
                 <div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
                     <!--begin:Header-->
-                    <div class="d-flex flex-column flex-center py-10 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(assets/media/misc/bg-1.jpg)">
+                    <div class="d-flex flex-column flex-center py-10 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(/assets/media/misc/bg-1.jpg)">
                         <h4 class="text-white font-weight-bold">Quick Actions</h4>
                         <span class="btn btn-success btn-sm font-weight-bold font-size-sm mt-2">23 tasks pending</span>
                     </div>
@@ -1327,7 +1327,7 @@
                 <!--begin::Toggle-->
                 <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
                     <div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-1">
-                        <img class="h-20px w-20px rounded-sm" src="assets/media/svg/flags/226-united-states.svg" alt="" />
+                        <img class="h-20px w-20px rounded-sm" src="/assets/media/svg/flags/226-united-states.svg" alt="" />
                     </div>
                 </div>
                 <!--end::Toggle-->
@@ -1339,7 +1339,7 @@
                         <li class="navi-item">
                             <a href="#" class="navi-link">
 													<span class="symbol symbol-20 mr-3">
-														<img src="assets/media/svg/flags/226-united-states.svg" alt="" />
+														<img src="/assets/media/svg/flags/226-united-states.svg" alt="" />
 													</span>
                                 <span class="navi-text">English</span>
                             </a>
@@ -1349,7 +1349,7 @@
                         <li class="navi-item active">
                             <a href="#" class="navi-link">
 													<span class="symbol symbol-20 mr-3">
-														<img src="assets/media/svg/flags/128-spain.svg" alt="" />
+														<img src="/assets/media/svg/flags/128-spain.svg" alt="" />
 													</span>
                                 <span class="navi-text">Spanish</span>
                             </a>
@@ -1359,7 +1359,7 @@
                         <li class="navi-item">
                             <a href="#" class="navi-link">
 													<span class="symbol symbol-20 mr-3">
-														<img src="assets/media/svg/flags/162-germany.svg" alt="" />
+														<img src="/assets/media/svg/flags/162-germany.svg" alt="" />
 													</span>
                                 <span class="navi-text">German</span>
                             </a>
@@ -1369,7 +1369,7 @@
                         <li class="navi-item">
                             <a href="#" class="navi-link">
 													<span class="symbol symbol-20 mr-3">
-														<img src="assets/media/svg/flags/063-japan.svg" alt="" />
+														<img src="/assets/media/svg/flags/063-japan.svg" alt="" />
 													</span>
                                 <span class="navi-text">Japanese</span>
                             </a>
@@ -1379,7 +1379,7 @@
                         <li class="navi-item">
                             <a href="#" class="navi-link">
 													<span class="symbol symbol-20 mr-3">
-														<img src="assets/media/svg/flags/195-france.svg" alt="" />
+														<img src="/assets/media/svg/flags/195-france.svg" alt="" />
 													</span>
                                 <span class="navi-text">French</span>
                             </a>
@@ -1395,9 +1395,9 @@
             <div class="topbar-item">
                 <div class="btn btn-icon btn-icon-mobile w-auto btn-clean d-flex align-items-center btn-lg px-2" id="kt_quick_user_toggle">
                     <span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Hi,</span>
-                    <span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">Sean</span>
+                    <span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">{{ Auth::user()->name }}</span>
                     <span class="symbol symbol-lg-35 symbol-25 symbol-light-success">
-											<span class="symbol-label font-size-h5 font-weight-bold">S</span>
+											<span class="symbol-label font-size-h5 font-weight-bold">{{ mb_substr(Auth::user()->name, 0, 1) }}</span>
 										</span>
                 </div>
             </div>

@@ -117,7 +117,7 @@
                             <div class="d-flex flex-column mb-5 align-items-start">
                                 <div class="d-flex align-items-center">
                                     <div class="symbol symbol-circle symbol-40 mr-3">
-                                        <img alt="Pic" src="assets/media/users/300_12.jpg" />
+                                        <img alt="Pic" src="/assets/media/users/300_12.jpg" />
                                     </div>
                                     <div>
                                         <a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">Matt Pears</a>
@@ -135,7 +135,7 @@
                                         <a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">You</a>
                                     </div>
                                     <div class="symbol symbol-circle symbol-40 ml-3">
-                                        <img alt="Pic" src="assets/media/users/300_21.jpg" />
+                                        <img alt="Pic" src="/assets/media/users/300_21.jpg" />
                                     </div>
                                 </div>
                                 <div class="mt-2 rounded p-5 bg-light-primary text-dark-50 font-weight-bold font-size-lg text-right max-w-400px">Hey there, we’re just writing to let you know that you’ve been subscribed to a repository on GitHub.</div>
@@ -145,7 +145,7 @@
                             <div class="d-flex flex-column mb-5 align-items-start">
                                 <div class="d-flex align-items-center">
                                     <div class="symbol symbol-circle symbol-40 mr-3">
-                                        <img alt="Pic" src="assets/media/users/300_21.jpg" />
+                                        <img alt="Pic" src="/assets/media/users/300_21.jpg" />
                                     </div>
                                     <div>
                                         <a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">Matt Pears</a>
@@ -163,7 +163,7 @@
                                         <a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">You</a>
                                     </div>
                                     <div class="symbol symbol-circle symbol-40 ml-3">
-                                        <img alt="Pic" src="assets/media/users/300_21.jpg" />
+                                        <img alt="Pic" src="/assets/media/users/300_21.jpg" />
                                     </div>
                                 </div>
                                 <div class="mt-2 rounded p-5 bg-light-primary text-dark-50 font-weight-bold font-size-lg text-right max-w-400px">You’ll receive notifications for all issues, pull requests!</div>
@@ -173,7 +173,7 @@
                             <div class="d-flex flex-column mb-5 align-items-start">
                                 <div class="d-flex align-items-center">
                                     <div class="symbol symbol-circle symbol-40 mr-3">
-                                        <img alt="Pic" src="assets/media/users/300_12.jpg" />
+                                        <img alt="Pic" src="/assets/media/users/300_12.jpg" />
                                     </div>
                                     <div>
                                         <a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">Matt Pears</a>
@@ -192,7 +192,7 @@
                                         <a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">You</a>
                                     </div>
                                     <div class="symbol symbol-circle symbol-40 ml-3">
-                                        <img alt="Pic" src="assets/media/users/300_21.jpg" />
+                                        <img alt="Pic" src="/assets/media/users/300_21.jpg" />
                                     </div>
                                 </div>
                                 <div class="mt-2 rounded p-5 bg-light-primary text-dark-50 font-weight-bold font-size-lg text-right max-w-400px">Discover what students who viewed Learn Figma - UI/UX Design. Essential Training also viewed</div>
@@ -202,7 +202,7 @@
                             <div class="d-flex flex-column mb-5 align-items-start">
                                 <div class="d-flex align-items-center">
                                     <div class="symbol symbol-circle symbol-40 mr-3">
-                                        <img alt="Pic" src="assets/media/users/300_12.jpg" />
+                                        <img alt="Pic" src="/assets/media/users/300_12.jpg" />
                                     </div>
                                     <div>
                                         <a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">Matt Pears</a>
@@ -220,7 +220,7 @@
                                         <a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">You</a>
                                     </div>
                                     <div class="symbol symbol-circle symbol-40 ml-3">
-                                        <img alt="Pic" src="assets/media/users/300_21.jpg" />
+                                        <img alt="Pic" src="/assets/media/users/300_21.jpg" />
                                     </div>
                                 </div>
                                 <div class="mt-2 rounded p-5 bg-light-primary text-dark-50 font-weight-bold font-size-lg text-right max-w-400px">Company BBQ to celebrate the last quater achievements and goals. Food and drinks provided</div>

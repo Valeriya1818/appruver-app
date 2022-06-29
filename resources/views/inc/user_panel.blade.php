@@ -13,12 +13,12 @@
         <!--begin::Header-->
         <div class="d-flex align-items-center mt-5">
             <div class="symbol symbol-100 mr-5">
-                <div class="symbol-label" style="background-image:url('assets/media/users/300_21.jpg')"></div>
+                <div class="symbol-label" style="background-image:url('/assets/media/users/300_21.jpg')"></div>
                 <i class="symbol-badge bg-success"></i>
             </div>
             <div class="d-flex flex-column">
-                <a href="#" class="font-weight-bold font-size-h5 text-dark-75 text-hover-primary">James Jones</a>
-                <div class="text-muted mt-1">Application Developer</div>
+                <a href="#" class="font-weight-bold font-size-h5 text-dark-75 text-hover-primary">{{ Auth::user()->name }}</a>
+                <div class="text-muted mt-1">User</div>
                 <div class="navi mt-2">
                     <a href="#" class="navi-item">
 								<span class="navi-link p-0 pb-2">
@@ -35,14 +35,19 @@
                                             <!--end::Svg Icon-->
 										</span>
 									</span>
-									<span class="navi-text text-muted text-hover-primary">jm@softplus.com</span>
+									<span class="navi-text text-muted text-hover-primary">{{ Auth::user()->email }}</span>
 								</span>
                     </a>
-                    <a href="#" class="btn btn-sm btn-light-primary font-weight-bolder py-2 px-5">Sign Out</a>
+                    <form method="post" action="{{ route('logout') }}" accept-charset="utf-8">
+                        @csrf
+                        <button class="btn btn-sm btn-light-primary font-weight-bolder py-2 px-5">Sign Out</button>
+                    </form>
                 </div>
             </div>
         </div>
         <!--end::Header-->
+
+        <?php /*
         <!--begin::Separator-->
         <div class="separator separator-dashed mt-8 mb-5"></div>
         <!--end::Separator-->
@@ -253,6 +258,7 @@
             <!--end::Item-->
         </div>
         <!--end::Notifications-->
+        */ ?>
     </div>
     <!--end::Content-->
 </div>

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 
-class NumbersController extends Controller
+class ServicesController extends ApiController
 {
     /**
      * Display a listing of the resource.

@@ -41,7 +41,7 @@ var KTAppsEducationSchoolTeacher = function() {
 					width: 250,
                     template: function(data) {
                         var number = KTUtil.getRandomInt(1, 10);
-                        
+
                         var avatarsGirl = {
                             1: {'file': '002-girl.svg'},
                             2: {'file': '003-girl-1.svg'},
@@ -78,7 +78,7 @@ var KTAppsEducationSchoolTeacher = function() {
                         var output = '<div class="d-flex align-items-center">\
                             <div class="symbol symbol-50 symbol-sm flex-shrink-0">\
                                 <div class="symbol-label">\
-                                    <img class="h-75 align-self-end" src="assets/media/svg/avatars/' + user_img + '" alt="photo"/>\
+                                    <img class="h-75 align-self-end" src="/assets/media/svg/avatars/' + user_img + '" alt="photo"/>\
                                 </div>\
                             </div>\
                             <div class="ml-4">\
